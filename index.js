@@ -13,6 +13,13 @@ const stocks = {
         'sector': 'Technology',
         'image': 'https://i.ibb.co/JjVVN5j/Apple-Logo.png',
     },
+    'ADP': {
+        'name': 'Automatic Data Processing',
+        'dividend': 5.00,
+        'pay': 'quarterly',
+        'sector': 'Industrials',
+        'image': '',
+    },
     'AVGO': {
         'name': 'Broadcom',
         'dividend': 18.40,
@@ -75,6 +82,20 @@ const stocks = {
         'pay': 'quarterly',
         'sector': 'Consumer Defensive',
         'image': 'https://i.ibb.co/N2624kw/kraft-foods-logo.jpg',
+    },
+    'KO': {
+        'name': 'Coca-Cola Company',
+        'dividend': 1.84,
+        'pay': 'quarterly',
+        'sector': 'Consumer Defensive',
+        'image': '',
+    },
+    'LMT': {
+        'name': 'Lockheed Martin Corporation',
+        'dividend': 12.00,
+        'pay': 'quarterly',
+        'sector': 'Industrials',
+        'image': '',
     },
     'O': {
         'name': 'Realty Income Corporation',
