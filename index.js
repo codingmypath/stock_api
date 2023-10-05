@@ -142,6 +142,10 @@ const stocks = {
     }
 }
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/index.html')
+})
+
 app.get('/api/:stockName', (req, res) => {
     const ticker = req.params.stockName.toUpperCase();
     if (stocks[ticker]) {
